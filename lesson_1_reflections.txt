@@ -1,0 +1,22 @@
+the git command diff -u <version_1> <version_2> compares the files version_1 and version_2. It displays the 
+differences of these 2 files. This is very helpful, e.g. to find bugs in code. 
+
+To hava all verions of programming code can be very helpful to become more efficent:
+in case of a bug, one can go back to an older version which still works.
+Or, one can experiment with new features without loosing the old version of the code.
+
+Some verions controll systems automatically decide when a 'commit' is done (e.g. Dropbox).
+In git, one has to manualy decide when to 'commit'. Hence, one is very flexible.
+On the other hand, the user/programmer must make the choice when to commit. The committed changes should not be to small or to big.
+As a rule, one should add a commit after every logical change.
+
+In git, a collection of files (including all the changes/commits) is called a repository. Git can track changes across all files in a repository simultaniously.
+
+Using the command git log, one can see all commits ever been made in the repository. Each commit has an id (hash). 
+By using the command git diff <older_commit_id> <newer_commit_id>, one can see all changes of the two mentioned commits.
+
+By using git, it is much easier to introduce change or add new features, which potentially crash old ones, since with the command 
+git checkout <commit_id>, one can restore an older version of the code.
+
+To initialize a new repository, one has to call git init in the respective directory. This crates a hidden subfolder called .git which contains the 
+metadata which stores the changes/commits of the files in the directory.
