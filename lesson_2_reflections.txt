@@ -1,2 +1,6 @@
 To initialize a new repository, one has to call git init in the respective directory. This crates a hidden subfolder called .git which contains the 
 metadata which stores the changes/commits of the files in the directory.
+
+As a rule, one has to make one commit per logical change. If one is using several files, the staging area helps in doing that. If one is e.g. performing one
+logical change in one file, one can only add that file to the staging area. Hence, in the next commit, only the changes in the staged file 
+are taken into account.
