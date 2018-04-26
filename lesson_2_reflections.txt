@@ -4,3 +4,5 @@ metadata which stores the changes/commits of the files in the directory.
 As a rule, one has to make one commit per logical change. If one is using several files, the staging area helps in doing that. If one is e.g. performing one
 logical change in one file, one can only add that file to the staging area. Hence, in the next commit, only the changes in the staged file 
 are taken into account.
+
+In git, one can create branches by using the comand git branch <name>. This is helpful when one wants to experiment around without breaking the history.
