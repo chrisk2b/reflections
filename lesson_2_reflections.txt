@@ -6,3 +6,6 @@ logical change in one file, one can only add that file to the staging area. Henc
 are taken into account.
 
 In git, one can create branches by using the comand git branch <name>. This is helpful when one wants to experiment around without breaking the history.
+
+By using the command git log --graph --oneline master <branch_name> one can see the commits of the master branch and the branch with name branch_name.
+This is a helpful visual representation. 
