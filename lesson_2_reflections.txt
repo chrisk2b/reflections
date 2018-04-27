@@ -9,3 +9,6 @@ In git, one can create branches by using the comand git branch <name>. This is h
 
 By using the command git log --graph --oneline master <branch_name> one can see the commits of the master branch and the branch with name branch_name.
 This is a helpful visual representation. 
+
+Once one has greated a branch (with a given name) one can merge the branch later one into the master branch by using the command git merge master <name>.
+Merging acts like a commit. The merged branch contains now all commits of the two branches, ordered by timestamp. 
