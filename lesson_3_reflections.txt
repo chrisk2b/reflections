@@ -1,1 +1,1 @@
-
+Benefits of GitHub: One can use GitHub rather than just the local version of Git, if many contributors are working on a project in parallel.
